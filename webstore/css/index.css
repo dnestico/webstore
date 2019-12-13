@@ -133,13 +133,22 @@ h3 {
   }
 
 .info {
- color: darkred;
+ color: red;
  margin-top: 10px;
  margin-bottom: 10px;
  font-size: 20px;
  text-align: left;
 }  
 
+.description {
+  color: whitesmoke;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: left;
+ } 
 
 .center {
   text-align: center;
@@ -182,8 +191,8 @@ h3 {
   color: black;
   text-decoration: none;
   border: 2px solid black;
-  border-length: 10px;
   margin-bottom: 15px;
+  /* border-length: 10px; */
 }
 
 .productsfound:hover {
@@ -371,3 +380,5 @@ ul.contact li a{
       display: block;
       text-align: left;
     }
+  }
+}
